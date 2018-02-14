@@ -1,0 +1,1 @@
+function [jVal, gradient] = costFunction1(theta)jVal = (theta(1)-5)^2 + (theta(2)-5)^2; % this is the cost functiongradient = zeros(2,1); % initial a vector with 0, the length is the same as jgradient(1) = 2*(theta(1)-5); % partial differientialgradient(2) = 2*(theta(2)-5); % partial differiential
